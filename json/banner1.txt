@@ -1,0 +1,4 @@
+[{"img":"img/s-l-1.jpg","desc":""},
+{"img":"img/s-l-2.jpg","desc":""},
+{"img":"img/s-l-3.jpg","desc":""},
+{"img":"img/s-l-4.jpg","desc":""}]

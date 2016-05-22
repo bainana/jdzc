@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>京东众筹</title>
+    <link href="css/base.css" type="text/css" rel="stylesheet"/>
+    <link href="css/detail.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+    <div class="topbar">
+        <div class="topbar-wrap grid-1200 clearFix">
+            <div class="topbar-left">
+                <ul class="toplink">
+                    <li>
+                        <i class="icon icon-home"></i>
+                        <a href="">京东首页</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topbar-right">
+                <ul class="topmenu" id="jsTopMenu">
+                    <li><a href="">用户名</a></li>
+                    <li><a href="">我的交易单</a></li>
+                    <li><a href="">金融会员中心</a></li>
+                    <li><a href="">手机金融</a></li>
+                    <li><a href="">我的关注</a></li>
+                    <li class="topmenu-dropdown menu-help">
+                        <i class="drop-arrow"></i>
+                        <span class="topmenu-outline">联系客服</span>
+                        <ul class="dropbox">
+                            <li><a href="">帮助中心</a></li>
+                            <li><a href="">我要吐槽</a></li>
+                            <li><a href="">在线客服</a></li>
+                            <li><a href="">客服邮箱</a></li>
+                        </ul>
+                    </li>
+                    <li class="topmenu-dropdown menu-item">
+                        <span class="topmenu-outline">网站导航</span>
+                        <i class="drop-arrow"></i>
+                        <ul class="dropbox">
+                            <li><a href="">基金理财</a></li>
+                            <li><a href="">众筹</a></li>
+                            <li><a href="">京东钱包</a></li>
+                            <li><a href="">京东白条</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="toplink">
+                    <li class="toplink-item dropdown">
+                        <i class="icon icon-weixin"></i>
+                        <ul class="dropbox dropbox-weixin">
+                            <li>
+                                <img src="sprite/topbar-ercode-01.jpg"/>
+                                <h6>京东金融</h6>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--<li class="toplink-item dropdown">
+                        <i class="icon icon-weibo"></i>
+                        <ul class="dropbox dropbox-weibo">
+                            <li>
+                                <img src="sprite/topbar-weibo.jpg"/>
+                            </li>
+                            <li><a href="">+京东金融</a></li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-nav-wrap">
+        <div class="nav-wrap">
+            <div class="main-nav grid-1200">
+                <div class="main-nav-logo"><a href=""><img src="sprite/logo-slogan.png"></a></div>
+                <div class="nav fl">
+                    <ul class="nav-box" id="navBox">
+                        <li class="nav-item"><a href="">首页</a></li>
+                        <li class="nav-item">
+                            <a href="">理财</a>
+                            <ul class="drop-box">
+                                <li>京东小金库</li>
+                                <li>京东小白理财</li>
+                                <li>基金理财</li>
+                                <li>固收理财</li>
+                                <li>票据理财</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item current"><a href="">众筹<i></i></a>
+                            <ul class="drop-box">
+                                <li>京东小金库</li>
+                                <li>京东小白理财</li>
+                                <li>基金理财</li>
+                                <li>固收理财</li>
+                                <li>票据理财</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">保险</a>
+                            <ul class="drop-box">
+                                <li>京东小金库</li>
+                                <li>京东小白理财</li>
+                                <li>基金理财</li>
+                                <li>固收理财</li>
+                                <li>票据理财</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">白条</a>
+                            <ul class="drop-box">
+                                <li>京东小金库</li>
+                                <li>京东小白理财</li>
+                                <li>基金理财</li>
+                                <li>固收理财</li>
+                                <li>票据理财</li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="">企业金融</a>
+                            <ul class="drop-box">
+                                <li>京东小金库</li>
+                                <li>京东小白理财</li>
+                                <li>基金理财</li>
+                                <li>固收理财</li>
+                                <li>票据理财</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">股票</a>
+                            <ul class="drop-box">
+                                <li>基金理财</li>
+                                <li>固收理财</li>
+                                <li>票据理财</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">东家</a>
+                            <ul class="drop-box">
+                                <li>固收理财</li>
+                                <li>票据理财</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-nav-search">
+                    <div class="search-wrap">
+                        <input type="text" class=tp-input" placeholder="科技改变未来世界"/><a href=""></a>
+                    </div>
+                </div>
+                <div class="main-nav-userCenter fr" id="userCenter">
+                    <div class="userCenter">
+                        <i class="user-icon"></i>
+                        <a href="javascript:;" class="user-text">我的资产</a>
+                        <i class="user-right"></i>
+                        <div class="white" id="userWhite"></div>
+                    </div>
+                    <div class="userMenu" id="userMenu">
+                        <div class="user-info">
+                            <div class="icon"><img src="sprite/user-unlogin-icon.png"/></div>
+                            <div class="text">
+                                <h5>尊敬的用户</h5>
+                                <span>欢迎来到京东金融</span>
+                            </div>
+                        </div>
+                        <div class="user-list">
+                            <ul>
+                                <li><a href="#">资产总揽</a></li>
+                                <li><a href="#">京东小金库</a></li>
+                                <li><a href="">我的理财</a></li>
+                                <li><a href="">我的白条</a></li>
+                                <li><a href="">我的保单</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-nav">
+                <div class="sub-nav-wrap">
+                    <a href="" class="current">产品众筹</a>
+                    <a href="">轻众筹</a>
+                    <a href="">尖儿货</a>
+                    <a href="">0元评测</a>
+                    <a href="">众筹社区</a>
+                    <a href="">发起众筹</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="wrap">
+    <div class="main">
+        <div class="project">
+            <div class="project-img">
+                <i></i>
+                <img src="img/detail1.jpg">
+            </div>
+            <div class="project-intro">
+                <h1 class="p-title">智能婴童辅食机</h1>
+
+                <div class="p-have">已筹到</div>
+                <div class="p-num"><span>￥</span>33699778</div>
+                <div class="p-speed">
+                    <div class="speed-bg">
+                        <div class="speed-purple" style="width:100%"></div>
+                    </div>
+                </div>
+                <div class="p-process">
+                    <span class="percent">当前进步674%</span>
+                    <span class="support">46755名支持者</span>
+                </div>
+                <div class="p-target">此项目必须在 <span>2016年05月17日</span> 前得到 <span>￥5000000</span>的支持才可成功！ 剩余
+                    <span>15天!</span>
+                </div>
+                <div class="p-btns">
+                    <a href="" class="a-focus not-follow">关注<span>(1万)</span></a>
+                    <a href="" class="a-praise not-follow">赞<span>(1万)</span></a>
+                </div>
+                <div class="p-share">
+                    <div class="title">分享到</div>
+                    <ul class="p-list">
+                        <li><a class="i-sina" href=""></a></li>
+                        <li><a class="i-qqweibo" href=""></a></li>
+                        <li><a class="i-qqzone" href=""></a></li>
+                        <li><a class="i-douban" href=""></a></li>
+                        <li><a class="i-renren" href=""></a></li>
+                        <li><a class="i-weixin" href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-detail">
+            <div class="detail-con">
+                <div class="tab-title" id="tab-title">
+                    <div class="tag-name">项目主页</div>
+                    <div class="tag-name current">项目进展<span>10</span></div>
+                    <div class="tag-name">话题<span>83</span></div>
+                    <div class="tag-name">支持者<span>1038</span></div>
+                </div>
+                <div class="tab-content" id="tab-content">
+                    <div class="tab-div">
+                        <img src="img/dtemp1.jpg"/>
+                    </div>
+                    <div class="tab-div current">
+                        <div class="project-cue">这里记录了项目发起人更新的项目进展，您可以提问了解更多项目相关细节。</div>
+                        <div class="project-title">
+                            <div class="p-logo"><img src="img/dtemplogo.jpg"/></div>
+                            <div class="p-name">花上科技，智能家电轻奢个性主义者！</div>
+                            <div class="p-ask"><a href="">我要提问</a></div>
+                        </div>
+                        <div class="project-list">
+                            <div class="p-list-wrap">
+                                <div class="p-detail">
+                                    <div class="p-point"></div>
+                                    <div class="p-day">今天</div>
+                                    <p>好消息！花上智能口腔护理仪众筹破百万，为感谢各位花主们的支持，每支护理仪都再赠送一支原装刷头哦</p>
+                                </div>
+                            </div>
+                            <div class="p-list-wrap">
+                                <div class="p-detail">
+                                    <div class="p-point"></div>
+                                    <div class="p-day">今天</div>
+                                    <p>
+                                        好消息啦(￣▽￣～)花上智能口腔护理仪京东众筹不到一周突破100万了，为了感谢花主们的鼎力支持，众筹的每一支智能口腔护理仪，我们都附赠一支价值69元的原装刷头，原装的哦！另外，关注“花上”微信公众号，在最新一条图文中《花主们，发福利了～》参与互动，就可以获得大奖，还等什么，大奖等你扛回家啦(●°u°●)​」</p>
+                                </div>
+                            </div>
+                            <div class="p-list-wrap">
+                                <div class="p-detail">
+                                    <div class="p-point"></div>
+                                    <div class="p-day">今天</div>
+                                    <p>好消息！花上智能口腔护理仪众筹破百万，为感谢各位花主们的支持，每支护理仪都再赠送一支原装刷头哦</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-div">
+                        <div class="dialog-write">
+                            <div class="dialog-write-title">
+                                <a href="">进入京东众筹项目</a>
+                            </div>
+                            <textarea placeholder="输入您想要跟大家交流的内容~"></textarea>
+
+                            <div class="dialog-submit">
+                                <div class="expression"><a href="" class="first-icon"></a></div>
+                                <div class="input-limit">还可以输入140字</div>
+                                <div class="dialog-btn">
+                                    <input type="button" value="发布话题" class="btn"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dialog-list">
+                            <div class="dialog-li">
+                                <div class="dialog-img"><img src="sprite/no-img_mid_.jpg"/></div>
+                                <div class="dialog-content">
+                                    <div class="dialog-detail">
+                                        <span class="d-name">在图书馆看漫画：</span>
+                                        我就想问问这个飞机耐摔吗？还有78那个多了些配件（好像不是全部）是不是易碎部分？
+                                    </div>
+                                    <div class="dialog-reply">
+                                        <span class="d-time">2天前</span>
+                                        <span class="d-reply">回复(2)</span>
+                                        <span class="d-zan">赞(0)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-div">
+                        <div class="pro-support">
+                            <ul class="item-ul">
+                                <li class="item-li">
+                                    <div class="item-img">
+                                        <img src="sprite/no-img_mid_.jpg"/>
+
+                                        <div class="item-shadow"></div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <div class="item-name">我信故我得</div>
+                                        <div class="item-support">
+                                            支持项目<span class="font-red">1元</span>
+                                        </div>
+                                        <p class="item-num">
+                                            <span>发起</span>
+                                            <span>0</span>
+                                            <span class="line"></span>
+                                            <span>支持</span>
+                                            <span class="num">1</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="item-li">
+                                    <div class="item-img">
+                                        <img src="sprite/no-img_mid_.jpg"/>
+
+                                        <div class="item-shadow"></div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <div class="item-name">我信故我得</div>
+                                        <div class="item-support">
+                                            支持项目<span class="font-red">1元</span>
+                                        </div>
+                                        <p class="item-num">
+                                            <span>发起</span>
+                                            <span>0</span>
+                                            <span class="line"></span>
+                                            <span>支持</span>
+                                            <span class="num">1</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="item-li">
+                                    <div class="item-img">
+                                        <img src="sprite/no-img_mid_.jpg"/>
+
+                                        <div class="item-shadow"></div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <div class="item-name">我信故我得</div>
+                                        <div class="item-support">
+                                            支持项目<span class="font-red">1元</span>
+                                        </div>
+                                        <p class="item-num">
+                                            <span>发起</span>
+                                            <span>0</span>
+                                            <span class="line"></span>
+                                            <span>支持</span>
+                                            <span class="num">1</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="item-li">
+                                    <div class="item-img">
+                                        <img src="sprite/no-img_mid_.jpg"/>
+
+                                        <div class="item-shadow"></div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <div class="item-name">我信故我得</div>
+                                        <div class="item-support">
+                                            支持项目<span class="font-red">1元</span>
+                                        </div>
+                                        <p class="item-num">
+                                            <span>发起</span>
+                                            <span>0</span>
+                                            <span class="line"></span>
+                                            <span>支持</span>
+                                            <span class="num">1</span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-side">
+                <div class="side-box">
+                    <div class="side-title">项目发起人</div>
+                    <div class="promoters">
+                        <div class="promoters-logo"><img src="img/templogo.jpg"/></div>
+                        <div class="promoters-detail">
+                            <div class="promoters-title"><a href="">伊行科技</a></div>
+                            <div class="promoters-intro">趣睡科技！用科技改变睡眠！</div>
+                            <div class="promoters-num">
+                                <div class="start">
+                                    <span>发起</span>
+                                    <span>0</span>
+                                </div>
+                                <div class="line"></div>
+                                <div class="support">
+                                    <span>支持</span>
+                                    <span>0</span>
+                                </div>
+                            </div>
+                            <div class="promoters-btn">
+                                <a href="">发送私信</a>
+                                <a href="">联系我们</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-support">
+                    <div class="side-title">
+                        <span class="price">￥1</span>
+                        <span class="num">1103位支持者</span></div>
+                    <div class="box-content">
+                        <div class="box-limit">
+                            <span>限额</span>
+                            <span>6000位</span>
+                            <span class="line"></span>
+                            <span>剩余</span>
+                            <span>4832位</span>
+                        </div>
+                        <p class="box-intro">截止5月31日前支持一元的用户，每3000名中抽取1名（不满3000名则按 3000名计算一次抽奖），中奖者将获得
+                            8H乳胶床垫Q2一张。抽奖由京东官方抽出，具体抽奖规则及中奖名单将在话题区公布。8H将在抽奖名单产生后 联系中奖者，确认所需床垫的尺寸与颜色后安排发货。</p>
+
+                        <div class="box-imglist">
+                            <ul>
+                                <li><img src="img/temp7.jpg"/></li>
+                                <li><img src="img/temp6.jpg"/></li>
+                            </ul>
+                        </div>
+                        <p class="box-item">
+                            配送费用：<span class="font-b">免运费</span>
+                        </p>
+
+                        <p class="box-btn"><input value="支持￥1" type="button" class="btn"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="copyright">
+        <div class="nav">
+            <p>
+                <a href="">关于京东金融</a>
+                <a href="">关于京东小金库</a>
+                <a href="">关于京东钱包</a>
+                <a href="">关于京东白条</a>
+                <a href="">联系我们</a>
+                <a href="" class="last">免责声明</a>
+            </p>
+
+            <p>Copyright © 2004-2016 京东JD.com 版权所有|投资有风险，购买需谨慎</p>
+        </div>
+        <div class="contact">
+            <div class="contact-time">联系我们<span>9:00-22:00</span></div>
+            <div class="contact-content">
+                <div class="box">
+                    <span>个人业务：400 098 8511</span>
+                    <span>企业业务：400 088 8816</span>
+                </div>
+                <div class="box mid">
+                    <a href="" class="muji">咨询JIMI</a>
+                    <a href="" class="kefu">在线客服</a>
+                </div>
+                <div class="box last">
+                    <a href="" class="email">客服邮箱</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/utils.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/detail.js" type="text/javascript"></script>
+</body>
+</html>
